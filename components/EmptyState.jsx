@@ -8,7 +8,7 @@ const EmptyState = ({ title, subTitle }) => {
     <View className="justify-center items-center px-4">
       <Image source={images.empty} className="w-[270px] h-[150px]"  resizeMode="contain"/>
       <Text className="text-gray-100 font-pmedium text-xl">{title}</Text>
-      <Text className="text-md text-center font-psemibold text-white mt-2">
+      <Text className="text-xs text-center font-pmedium text-white m-2">
         {subTitle}
       </Text>
       <CustomButton 
